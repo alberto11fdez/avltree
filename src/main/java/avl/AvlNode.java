@@ -48,7 +48,11 @@ public class AvlNode<T> {
     height = 0;
     closestNode = null;
 
-    this.item = item;
+    if(item == null){
+      throw new IllegalArgumentException("El valor introducido para el nodo no puede ser null");
+    }else{
+      this.item = item;
+    }
   }
 
   public AvlNode<T> getLeft() {

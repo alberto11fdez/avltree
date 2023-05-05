@@ -9,8 +9,5 @@
         <module name="avlTree" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="avlTree" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
