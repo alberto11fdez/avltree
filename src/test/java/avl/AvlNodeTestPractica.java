@@ -3,16 +3,23 @@ package avl;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class AvlNodeTestPractica {
     @Test
     @DisplayName("Test para el constructor al pasarle cualquier objeto valido")
-    void test1(){
+    public void test1(){
 
     }
 
     @Test
     @DisplayName("Test para el constructor al pasarle un objeto null")
-    void test2(){
+    public void test2(){
+        AvlNode<Object> nodoNull = new AvlNode<>(null);
+        assertThrows(IllegalArgumentException.class, () -> {nodoNull.getItem();});
 
     }
+
+
 }
