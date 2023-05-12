@@ -4,104 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc252cbc-6b99-4197-9f78-d157e97df664" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="7f8790ec-4ff0-476d-b48a-cf2ed1a63b0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/avlTree.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTestPractica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTestPractica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTestPractica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreeTestPractica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" afterDir="false" />
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2PMti6MIeqKiXv9EJAPVNQpJIJG" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/USUARIO/Documents/IntelliJ/Mantenimiento/Prácticas/Practica_7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-<<<<<<< HEAD
-}</component>
-  <component name="RunManager" selected="JUnit.AvlTreeTestPractica">
-    <configuration name="AvlNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
 }]]></component>
-  <component name="RunManager" selected="JUnit.AvlNodePracticaTest.test3">
-    <configuration name="AvlNodePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
+  <component name="RunManager">
+    <configuration name="AvlTreePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -110,151 +31,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlNodePracticaTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="AvlTreeTestPractica$InsertarNodo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreeTestPractica" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTestPractica$InsertarNodo" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreeTestPractica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="AvlNodePracticaTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTestPractica" />
-      <option name="TEST_OBJECT" value="class" />
-=======
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlNodePracticaTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlNodePracticaTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="JUnit.AvlTreeTestPractica" />
-        <item itemvalue="JUnit.AvlTreeTestPractica$InsertarNodo.test5" />
-        <item itemvalue="JUnit.AvlNodeTestPractica" />
-        <item itemvalue="JUnit.AvlNodeTestPractica.test1" />
-        <item itemvalue="JUnit.AvlNodeTest" />
-=======
-        <item itemvalue="JUnit.AvlNodePracticaTest.test3" />
-        <item itemvalue="JUnit.AvlNodePracticaTest.test6" />
-        <item itemvalue="JUnit.AvlNodePracticaTest.test4" />
-        <item itemvalue="JUnit.AvlNodePracticaTest" />
-        <item itemvalue="JUnit.AvlNodePracticaTest.test2" />
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
+        <item itemvalue="JUnit.AvlTreePracticaTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="cc252cbc-6b99-4197-9f78-d157e97df664" name="Changes" comment="" />
-      <created>1683278902369</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1683278902369</updated>
-      <workItem from="1683278903793" duration="904000" />
-      <workItem from="1683279854842" duration="1871000" />
-      <workItem from="1683281945718" duration="655000" />
-      <workItem from="1683422493522" duration="162000" />
-      <workItem from="1683883393637" duration="2212000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/avltree$AvlNodeTestPractica.ic" NAME="AvlNodeTestPractica Coverage Results" MODIFIED="1683882583853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>avl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/avltree$AvlTreePracticaTest.ic" NAME="AvlTreePracticaTest Coverage Results" MODIFIED="1683887362478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>avl.*</FILTER>
     </SUITE>
   </component>

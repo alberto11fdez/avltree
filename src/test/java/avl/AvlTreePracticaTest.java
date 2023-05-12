@@ -1,20 +1,14 @@
 package avl;
 
-<<<<<<< HEAD:src/test/java/avl/AvlTreeTestPractica.java
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-=======
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.Test;
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee:src/test/java/avl/AvlTreePracticaTest.java
 
 public class AvlTreePracticaTest {
 
@@ -76,10 +70,41 @@ public class AvlTreePracticaTest {
             avlTree.insertAvlNode(node);
             avlTree.insertAvlNode(node2);
 
-            AvlNode<Integer> targetNode = new AvlNode(4);
-            assertEquals(node,avlTree.searchNode(targetNode));
+            assertEquals(node,avlTree.search(4));
         }
 
+        @Test
+        @DisplayName("Si top es null")
+        public void testTopNull(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+
+            assertEquals(null,avlTree.search(4));
+        }
+
+        @Test
+        @DisplayName("Si no existe el item")
+        public void testNoItem(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            avlTree.insert(3);
+
+            assertEquals(null,avlTree.search(4));
+        }
+        @Test
+        @DisplayName("Búsqueda por la derecha")
+        public void testRightSearch(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node2 = new AvlNode(3);
+            AvlNode<Integer> node3 = new AvlNode(5);
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node2);
+            avlTree.insertAvlNode(node3);
+
+            assertEquals(node3,avlTree.search(5));
+        }
         @Test
         @DisplayName("Si Nodo == null")
         public void test8(){
@@ -106,7 +131,7 @@ public class AvlTreePracticaTest {
             avlTree.insertAvlNode(node);
             avlTree.insertAvlNode(node2);
 
-            avlTree.deleteNode(node2);
+            avlTree.delete(3);
             assertEquals(null,avlTree.searchNode(node2));
         }
 
