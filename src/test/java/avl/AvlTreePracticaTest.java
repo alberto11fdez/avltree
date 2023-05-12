@@ -1,6 +1,5 @@
 package avl;
 
-<<<<<<< HEAD:src/test/java/avl/AvlTreeTestPractica.java
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -8,13 +7,11 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-=======
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
->>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee:src/test/java/avl/AvlTreePracticaTest.java
 
 public class AvlTreePracticaTest {
 
@@ -25,12 +22,23 @@ public class AvlTreePracticaTest {
         @Test
         @DisplayName("Si num Nodos = 1")
         public void test3(){
+            AvlTree<Object> avlTreeActual = new AvlTree<>(null);
+            avlTreeActual.insert(1);
+            Object itemExpected = 1;
+            Object itemActual = avlTreeActual.getTop().getItem();
 
+            assertEquals(itemExpected,itemActual);
         }
 
         @Test
         @DisplayName("Si num Nodos >1")
         public void test4(){
+            AvlTree<Object> avlTreeActual = new AvlTree<>(null);
+            avlTreeActual.insert(1);
+            Object itemExpected = 1;
+            Object itemActual = avlTreeActual.getTop().getItem();
+
+            assertThrows(NullPointerException.class, () -> {avlTreeActual.insert(2);});
 
         }
     }
@@ -128,13 +136,25 @@ public class AvlTreePracticaTest {
         @Test
         @DisplayName("Si Nodo != null")
         public void test11(){
+            Comparator comparator = Comparator.comparingInt((Integer o)-> o);
+            AvlTree<Object> avlTree = new AvlTree<>(comparator);
+            avlTree.insert(1);
+            avlTree.insert(2);
+            AvlNode<Object> nodeActual = avlTree.getTop();
+
+            assertThrows(NullPointerException.class, () -> {avlTree.deleteNodeWithALeftChild(avlTree.top.getLeft());});
 
         }
 
         @Test
         @DisplayName("Si Nodo == null")
         public void test12(){
+            Comparator comparator = Comparator.comparingInt((Integer o)-> o);
+            AvlTree<Object> avlTree = new AvlTree<>(comparator);
+            avlTree.insert(1);
+            AvlNode<Object> nodeActual = avlTree.getTop();
 
+            assertThrows(NullPointerException.class, () -> {avlTree.deleteNodeWithALeftChild(avlTree.top.getLeft());});
         }
     }
 
@@ -145,13 +165,27 @@ public class AvlTreePracticaTest {
         @Test
         @DisplayName("Si Nodo != null")
         public void test13(){
+            Comparator comparator = Comparator.comparingInt((Integer o)-> o);
+            AvlTree<Object> avlTree = new AvlTree<>(comparator);
+            avlTree.insert(5);
+            avlTree.insert(3);
+            avlTree.insert(6);
+            AvlNode<Object> nodeActual = avlTree.getTop();
+            avlTree.deleteNodeWithARightChild(avlTree.top);
 
+            assertThrows(NullPointerException.class, () -> {avlTree.deleteNodeWithARightChild(avlTree.top);});
         }
 
         @Test
         @DisplayName("Si Nodo == null")
         public void test14(){
-
+            Comparator comparator = Comparator.comparingInt((Integer o)-> o);
+            AvlTree<Object> avlTree = new AvlTree<>(comparator);
+            avlTree.insert(5);
+            avlTree.insert(3);
+            avlTree.insert(6);
+            AvlNode<Object> nodeActual = avlTree.getTop();
+            assertThrows(NullPointerException.class, () -> {avlTree.deleteNodeWithARightChild(avlTree.top.getRight());});
         }
     }
 
