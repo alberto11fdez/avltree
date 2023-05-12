@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="99056e26-3db2-4799-a0d1-78adbbbe5af8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodeTestPractica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
-  }
-}]]></component>
-  <component name="RunManager" selected="JUnit.AvlTreePracticaTest$BorrarHijoDrcho.test13">
-    <configuration name="AvlTreePracticaTest$BorrarHijoDrcho.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AvlNodePracticaTest">
+    <configuration name="AvlNodePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -28,58 +9,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarHijoDrcho" />
-      <option name="METHOD_NAME" value="test13" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarHijoDrcho.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarHijoDrcho" />
-      <option name="METHOD_NAME" value="test14" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarHijoIzq.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarHijoIzq" />
-      <option name="METHOD_NAME" value="test11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarHijoIzq.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarHijoIzq" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,15 +33,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarHijoDrcho.test13" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarHijoIzq.test11" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarHijoIzq.test12" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarHijoDrcho.test14" />
+        <item itemvalue="JUnit.AvlNodePracticaTest" />
         <item itemvalue="JUnit.AvlTreePracticaTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="TaskManager">
-    <servers />
   </component>
 </project>

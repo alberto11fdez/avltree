@@ -73,8 +73,8 @@ public class AvlTree&lt;T&gt; {
 <span class="fc" id="L73">  }</span>
 
   public AvlNode&lt;T&gt; search(T item) {
-<span class="nc" id="L76">    AvlNode&lt;T&gt; node = new AvlNode&lt;T&gt;(item);</span>
-<span class="nc" id="L77">    return searchNode(node);</span>
+<span class="fc" id="L76">    AvlNode&lt;T&gt; node = new AvlNode&lt;T&gt;(item);</span>
+<span class="fc" id="L77">    return searchNode(node);</span>
   }
 
   public AvlNode&lt;T&gt; searchNode(AvlNode&lt;T&gt; targetNode) {
@@ -86,8 +86,8 @@ public class AvlTree&lt;T&gt; {
 <span class="fc" id="L86">    AvlNode&lt;T&gt; result = null;</span>
 
 <span class="fc" id="L88">    currentNode = top;</span>
-<span class="pc bpc" id="L89" title="1 of 2 branches missed.">    if (top == null) {</span>
-<span class="nc" id="L90">      result = null;</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">    if (top == null) {</span>
+<span class="fc" id="L90">      result = null;</span>
     } else {
       boolean searchFinished;
       int comparison;
@@ -101,12 +101,12 @@ public class AvlTree&lt;T&gt; {
 <span class="fc" id="L101">            searchFinished = true;</span>
 <span class="fc" id="L102">            result = null;</span>
           }
-<span class="pc bpc" id="L104" title="1 of 2 branches missed.">        } else if (comparison &gt; 0) {</span>
-<span class="nc bnc" id="L105" title="All 2 branches missed.">          if (currentNode.getRight() != null) {</span>
-<span class="nc" id="L106">            currentNode = currentNode.getRight();</span>
+<span class="fc bfc" id="L104" title="All 2 branches covered.">        } else if (comparison &gt; 0) {</span>
+<span class="fc bfc" id="L105" title="All 2 branches covered.">          if (currentNode.getRight() != null) {</span>
+<span class="fc" id="L106">            currentNode = currentNode.getRight();</span>
           } else {
-<span class="nc" id="L108">            searchFinished = true;</span>
-<span class="nc" id="L109">            result = null;</span>
+<span class="fc" id="L108">            searchFinished = true;</span>
+<span class="fc" id="L109">            result = null;</span>
           }
         } else {
 <span class="fc" id="L112">          searchFinished = true;</span>
@@ -118,8 +118,8 @@ public class AvlTree&lt;T&gt; {
   }
 
   public void delete(T item) {
-<span class="nc" id="L121">    deleteNode(new AvlNode&lt;T&gt;(item));</span>
-<span class="nc" id="L122">  }</span>
+<span class="fc" id="L121">    deleteNode(new AvlNode&lt;T&gt;(item));</span>
+<span class="fc" id="L122">  }</span>
 
   public void deleteNode(AvlNode&lt;T&gt; node) {
 <span class="fc bfc" id="L125" title="All 2 branches covered.">    if(node == null)</span>
