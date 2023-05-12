@@ -1,12 +1,13 @@
 package avl;
 
-import org.junit.Test;
+
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class AvlNodeTestPractica {
+public class AvlNodePracticaTest {
     @Test
     @DisplayName("Test para el constructor al pasarle cualquier objeto valido")
     public void test1(){
@@ -38,10 +39,31 @@ public class AvlNodeTestPractica {
     @Test
     @DisplayName("Test para el constructor al pasarle un objeto null")
     public void test2(){
-        AvlNode<Object> nodoNull = new AvlNode<>(null);
-        assertThrows(IllegalArgumentException.class, () -> {nodoNull.getItem();});
+        assertThrows(IllegalArgumentException.class, () -> {AvlNode<Object> nodoNull = new AvlNode<>(null);});
 
     }
+/*
+    @Test
+    @DisplayName("Test para comprobar que se puede insertar un nodo")
+    public void test3(){
+        AvlNode<Object>Node1 = new AvlNode<>(1);
+
+    }
+
+    @Test
+    @DisplayName("Test para comprobar que se puede buscar un nodo insertado")
+    public void test4(){
+
+    }
+
+
+    @Test
+    @DisplayName("Test para comprobar que se puede borrar un nodo buscado")
+    public void test5(){
+
+    }
+
+ */
 
 
 }

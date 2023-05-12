@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="avl.AvlNodeTest" time="0.201" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="avl.AvlTreePracticaTest" time="0.018" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\test-classes;C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\classes;C:\Users\USUARIO\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\USUARIO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\test-classes;C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\classes;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\USUARIO\AppData\Local\Temp\surefire11644720091878947910\surefirebooter3981183613479031109.jar C:\Users\USUARIO\AppData\Local\Temp\surefire11644720091878947910 2023-05-05T11-31-26_735-jvmRun1 surefire14035625413468066777tmp surefire_06570335403366490450tmp"/>
+    <property name="sun.java.command" value="C:\Users\USUARIO\AppData\Local\Temp\surefire15453742738086397020\surefirebooter6298560904358177214.jar C:\Users\USUARIO\AppData\Local\Temp\surefire15453742738086397020 2023-05-12T11-38-44_126-jvmRun1 surefire10719849567285302027tmp surefire_018228417158043348464tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\test-classes;C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\classes;C:\Users\USUARIO\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\USUARIO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\test-classes;C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\classes;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\USUARIO"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\USUARIO\AppData\Local\Temp\surefire11644720091878947910\surefirebooter3981183613479031109.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USUARIO\AppData\Local\Temp\surefire15453742738086397020\surefirebooter6298560904358177214.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -58,7 +58,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="shouldSetHeight" classname="avl.AvlNodeTest" time="0.015"/>
-  <testcase name="testHasLeft" classname="avl.AvlNodeTest" time="0.001"/>
-  <testcase name="testHasRight" classname="avl.AvlNodeTest" time="0"/>
+  <testcase name="test15" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0"/>
+  <testcase name="test16" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0"/>
+  <testcase name="test13" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0"/>
+  <testcase name="test14" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0"/>
+  <testcase name="test11" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0"/>
+  <testcase name="test12" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0"/>
+  <testcase name="test10" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0"/>
+  <testcase name="test9" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0"/>
+  <testcase name="test7" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0"/>
+  <testcase name="test8" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.002"/>
+  <testcase name="test5" classname="avl.AvlTreePracticaTest$InsertarNodo" time="0.001"/>
+  <testcase name="test6" classname="avl.AvlTreePracticaTest$InsertarNodo" time="0.002"/>
+  <testcase name="test3" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0.001"/>
+  <testcase name="test4" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0.001"/>
 </testsuite>
