@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99056e26-3db2-4799-a0d1-78adbbbe5af8" name="Changes" comment="">
+    <list default="true" id="cc252cbc-6b99-4197-9f78-d157e97df664" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/avltree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoDrcho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoDrcho.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoIzq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoIzq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarNodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarNodo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BuscarNodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BuscarNodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$DevolverArbolString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$DevolverArbolString.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$EncontrarSucesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$EncontrarSucesor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$InsertarNodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$InsertarNodo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$PruebaConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$PruebaConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarADerechaElAvlTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarADerechaElAvlTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarAIzquierdaElAvlTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarAIzquierdaElAvlTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarDosVecesADerechaElAvlTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$RotarDosVecesADerechaElAvlTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.AvlTreePracticaTest.testSearchExistingNode">
-    <configuration name="AvlTreePracticaTest$InsertarNodo.InsertarNodoNullLanzarIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.AvlTreePracticaTest">
+    <configuration name="AvlNodePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -67,15 +61,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$InsertarNodo" />
-      <option name="METHOD_NAME" value="InsertarNodoNullLanzarIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvlTreePracticaTest.DevolverArbol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvlTreePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +78,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
       <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="METHOD_NAME" value="DevolverArbol" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AvlTreePracticaTest" />
+        <item itemvalue="JUnit.AvlNodePracticaTest" />
         <item itemvalue="JUnit.AvlTreePracticaTest.testSearchExistingNode" />
         <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbolNoVacio" />
         <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbolVacio" />
-        <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbol" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$InsertarNodo.InsertarNodoNullLanzarIllegalArgumentException" />
       </list>
     </recent_temporary>
   </component>
@@ -175,15 +167,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java</url>
-          <line>169</line>
+          <line>175</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java</url>
-          <line>198</line>
+          <line>204</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/avltree$AvlNodeTestPractica.ic" NAME="AvlNodeTestPractica Coverage Results" MODIFIED="1683882583853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>avl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/avltree$AvlNodePracticaTest.ic" NAME="AvlNodePracticaTest Coverage Results" MODIFIED="1683918737703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>avl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/avltree$AvlTreePracticaTest.ic" NAME="AvlTreePracticaTest Coverage Results" MODIFIED="1683921792746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>avl.*</FILTER>
+    </SUITE>
   </component>
 </project>

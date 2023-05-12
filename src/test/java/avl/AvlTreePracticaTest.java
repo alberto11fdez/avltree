@@ -104,7 +104,13 @@ public class AvlTreePracticaTest {
             avlTree.insert(3);
 
             assertEquals(null,avlTree.search(4));
+            avlTree.insert(4);
+            assertEquals(null,avlTree.search(5));
+            avlTree.insert(2);
+            assertEquals(null,avlTree.search(1));
         }
+
+
         @Test
         @DisplayName("Búsqueda por la derecha")
         public void testRightSearch(){
@@ -225,20 +231,20 @@ public class AvlTreePracticaTest {
         public void BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoIzq(){
             Comparator comparator = Comparator.comparingInt((Integer o) -> o);
             AvlTree<Integer> avlTree = new AvlTree<>(comparator);
-            AvlNode<Integer> node = new AvlNode(4);
-            AvlNode<Integer> node1 = new AvlNode(3);
-            AvlNode<Integer> node2 = new AvlNode(5);
+            AvlNode<Integer> node = new AvlNode(50);
+            AvlNode<Integer> node1 = new AvlNode(17);
+            AvlNode<Integer> node2 = new AvlNode(76);
 
-            avlTree.insertTop(node);
-            node.setLeft(node1);
-            node.setRight(node2);
+            node1.setLeft(new AvlNode<>(9));
+            node2.setLeft(new AvlNode<>(54));
 
-
-            node1.setLeft(new AvlNode<>(2));
-
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node1);
+            avlTree.insertAvlNode(node2);
 
             avlTree.deleteNode(node);
-            assertEquals(null,avlTree.searchNode(node));
+            avlTree.deleteLeafNode(node2);
+            assertEquals(null,avlTree.searchNode(node2));
         }
 
     }
@@ -332,6 +338,8 @@ public class AvlTreePracticaTest {
 
             assertThrows(IllegalArgumentException.class, () -> {avlTree.findSuccessor(node);});
         }
+
+
     }
 
     @Nested
@@ -541,6 +549,27 @@ public class AvlTreePracticaTest {
         assertEquals(0,avlTree.searchClosestNode(top));
     }
 
+    @Test
+    @DisplayName("SearchClosestNode ")
+    public void SearchClosestNode(){
+        Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+        AvlTree avlTree = new AvlTree<Object>(comparator);
+        AvlNode<Integer> node = new AvlNode(4);
+        AvlNode<Integer> node1 = new AvlNode(5);
+        AvlNode<Integer> node2 = new AvlNode(6);
+        AvlNode<Integer> node3 = new AvlNode(7);
+
+        avlTree.insertAvlNode(node);
+        avlTree.insertAvlNode(node1);
+        avlTree.insertAvlNode(node2);
+        avlTree.insertAvlNode(node3);
+
+        assertEquals(0,avlTree.searchClosestNode(node));
+        assertEquals(0,avlTree.searchClosestNode(node1));
+        assertEquals(0,avlTree.searchClosestNode(node2));
+        assertEquals(0,avlTree.searchClosestNode(node3));
+        assertEquals(1,avlTree.searchClosestNode(new AvlNode<>(8)));
+    }
     @Test
     @DisplayName("Buscar en árbol vacio")
     public void BuscarNodoEnArbolVacio(){
