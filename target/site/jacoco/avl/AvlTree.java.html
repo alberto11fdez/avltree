@@ -94,12 +94,12 @@ public class AvlTree&lt;T&gt; {
 <span class="fc" id="L94">      searchFinished = false;</span>
 <span class="fc bfc" id="L95" title="All 2 branches covered.">      while (!searchFinished) {</span>
 <span class="fc" id="L96">        comparison = compareNodes(targetNode, currentNode);</span>
-<span class="fc bfc" id="L97" title="All 2 branches covered.">        if (comparison &lt; 0) {</span>
-<span class="fc bfc" id="L98" title="All 2 branches covered.">          if (currentNode.getLeft() != null) {</span>
-<span class="fc" id="L99">            currentNode = currentNode.getLeft();</span>
+<span class="pc bpc" id="L97" title="1 of 2 branches missed.">        if (comparison &lt; 0) {</span>
+<span class="nc bnc" id="L98" title="All 2 branches missed.">          if (currentNode.getLeft() != null) {</span>
+<span class="nc" id="L99">            currentNode = currentNode.getLeft();</span>
           } else {
-<span class="fc" id="L101">            searchFinished = true;</span>
-<span class="fc" id="L102">            result = null;</span>
+<span class="nc" id="L101">            searchFinished = true;</span>
+<span class="nc" id="L102">            result = null;</span>
           }
 <span class="fc bfc" id="L104" title="All 2 branches covered.">        } else if (comparison &gt; 0) {</span>
 <span class="fc bfc" id="L105" title="All 2 branches covered.">          if (currentNode.getRight() != null) {</span>
@@ -130,23 +130,23 @@ public class AvlTree&lt;T&gt; {
 
 <span class="fc" id="L131">    nodeFound = searchNode(node);</span>
 <span class="pc bpc" id="L132" title="1 of 2 branches missed.">    if (nodeFound != null) {</span>
-<span class="pc bpc" id="L133" title="1 of 2 branches missed.">      if (nodeFound.isLeaf()) {</span>
+<span class="fc bfc" id="L133" title="All 2 branches covered.">      if (nodeFound.isLeaf()) {</span>
 <span class="fc" id="L134">        deleteLeafNode(nodeFound);</span>
-<span class="nc bnc" id="L135" title="All 2 branches missed.">      } else if (nodeFound.hasOnlyALeftChild()) {</span>
-<span class="nc" id="L136">        deleteNodeWithALeftChild(nodeFound);</span>
-<span class="nc bnc" id="L137" title="All 2 branches missed.">      } else if (nodeFound.hasOnlyARightChild()) {</span>
-<span class="nc" id="L138">        deleteNodeWithARightChild(nodeFound);</span>
+<span class="fc bfc" id="L135" title="All 2 branches covered.">      } else if (nodeFound.hasOnlyALeftChild()) {</span>
+<span class="fc" id="L136">        deleteNodeWithALeftChild(nodeFound);</span>
+<span class="fc bfc" id="L137" title="All 2 branches covered.">      } else if (nodeFound.hasOnlyARightChild()) {</span>
+<span class="fc" id="L138">        deleteNodeWithARightChild(nodeFound);</span>
       } else { // has two children
-<span class="nc" id="L140">        AvlNode&lt;T&gt; successor = findSuccessor(nodeFound);</span>
-<span class="nc" id="L141">        T tmp = successor.getItem();</span>
-<span class="nc" id="L142">        successor.setItem(nodeFound.getItem());</span>
-<span class="nc" id="L143">        nodeFound.setItem(tmp);</span>
-<span class="nc bnc" id="L144" title="All 2 branches missed.">        if (successor.isLeaf()) {</span>
-<span class="nc" id="L145">          deleteLeafNode(successor);</span>
-<span class="nc bnc" id="L146" title="All 2 branches missed.">        } else if (successor.hasOnlyALeftChild()) {</span>
+<span class="fc" id="L140">        AvlNode&lt;T&gt; successor = findSuccessor(nodeFound);</span>
+<span class="fc" id="L141">        T tmp = successor.getItem();</span>
+<span class="fc" id="L142">        successor.setItem(nodeFound.getItem());</span>
+<span class="fc" id="L143">        nodeFound.setItem(tmp);</span>
+<span class="fc bfc" id="L144" title="All 2 branches covered.">        if (successor.isLeaf()) {</span>
+<span class="fc" id="L145">          deleteLeafNode(successor);</span>
+<span class="pc bpc" id="L146" title="1 of 2 branches missed.">        } else if (successor.hasOnlyALeftChild()) {</span>
 <span class="nc" id="L147">          deleteNodeWithALeftChild(successor);</span>
-<span class="nc bnc" id="L148" title="All 2 branches missed.">        } else if (successor.hasOnlyARightChild()) {</span>
-<span class="nc" id="L149">          deleteNodeWithARightChild(successor);</span>
+<span class="pc bpc" id="L148" title="1 of 2 branches missed.">        } else if (successor.hasOnlyARightChild()) {</span>
+<span class="fc" id="L149">          deleteNodeWithARightChild(successor);</span>
         }
       }
     }
@@ -154,24 +154,24 @@ public class AvlTree&lt;T&gt; {
 
   public void deleteLeafNode(AvlNode&lt;T&gt; node) {
 <span class="pc bpc" id="L156" title="1 of 2 branches missed.">    if (!node.hasParent()) {</span>
-<span class="nc" id="L157">      top = null;</span>
+<span class="fc" id="L157">      top = null;</span>
     } else {
-<span class="pc bpc" id="L159" title="1 of 2 branches missed.">      if (node.getParent().getLeft() == node) {</span>
-<span class="fc" id="L160">        node.getParent().setLeft(null);</span>
+<span class="nc bnc" id="L159" title="All 2 branches missed.">      if (node.getParent().getLeft() == node) {</span>
+<span class="nc" id="L160">        node.getParent().setLeft(null);</span>
       } else {
 <span class="nc" id="L162">        node.getParent().setRight(null);</span>
       }
-<span class="fc" id="L164">      node.getParent().updateHeight();</span>
-<span class="fc" id="L165">      rebalance(node.getParent());</span>
+<span class="nc" id="L164">      node.getParent().updateHeight();</span>
+<span class="nc" id="L165">      rebalance(node.getParent());</span>
     }
 <span class="fc" id="L167">  }</span>
 
   public void deleteNodeWithALeftChild(AvlNode&lt;T&gt; node) {
-<span class="nc" id="L170">    node.setItem((T) node.getLeft().getItem());</span>
-<span class="nc" id="L171">    node.setLeft(null);</span>
-<span class="nc" id="L172">    node.updateHeight();</span>
-<span class="nc" id="L173">    rebalance(node);</span>
-<span class="nc" id="L174">  }</span>
+<span class="fc" id="L170">    node.setItem((T) node.getLeft().getItem());</span>
+<span class="fc" id="L171">    node.setLeft(null);</span>
+<span class="fc" id="L172">    node.updateHeight();</span>
+<span class="fc" id="L173">    rebalance(node);</span>
+<span class="fc" id="L174">  }</span>
 
   public void deleteNodeWithARightChild(AvlNode&lt;T&gt; node) {
 <span class="fc" id="L177">    node.setItem((T) node.getRight().getItem());</span>
@@ -230,13 +230,13 @@ public class AvlTree&lt;T&gt; {
 
     AvlNode&lt;T&gt; result;
 
-<span class="pc bpc" id="L233" title="1 of 2 branches missed.">    if (node.hasRight()) {</span>
-<span class="nc" id="L234">      AvlNode&lt;T&gt; tmp = node.getRight();</span>
-<span class="nc bnc" id="L235" title="All 2 branches missed.">      while (tmp.hasLeft()) {</span>
-<span class="nc" id="L236">        tmp = tmp.getLeft();</span>
+<span class="fc bfc" id="L233" title="All 2 branches covered.">    if (node.hasRight()) {</span>
+<span class="fc" id="L234">      AvlNode&lt;T&gt; tmp = node.getRight();</span>
+<span class="fc bfc" id="L235" title="All 2 branches covered.">      while (tmp.hasLeft()) {</span>
+<span class="fc" id="L236">        tmp = tmp.getLeft();</span>
       }
-<span class="nc" id="L238">      result = tmp;</span>
-<span class="nc" id="L239">    } else {</span>
+<span class="fc" id="L238">      result = tmp;</span>
+<span class="fc" id="L239">    } else {</span>
 <span class="pc bpc" id="L240" title="1 of 4 branches missed.">      while (node.hasParent() &amp;&amp; (node.getParent().getRight() == node)) {</span>
 <span class="nc" id="L241">        node = node.getParent();</span>
       }

@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AvlNodePracticaTest {
     @Test
     @DisplayName("Test para el constructor al pasarle cualquier objeto valido")
-    public void test1(){
+    public void ConstructorObjetoValido(){
         AvlNode<Object> nodeActual = new AvlNode<>(4);
         AvlNode<Object> leftActual=nodeActual.getLeft();
         AvlNode<Object> rightActual=nodeActual.getRight();
@@ -38,14 +38,14 @@ public class AvlNodePracticaTest {
 
     @Test
     @DisplayName("Test para el constructor al pasarle un objeto null")
-    public void test2(){
+    public void ConstructorObjetoNull(){
         assertThrows(IllegalArgumentException.class, () -> {AvlNode<Object> nodoNull = new AvlNode<>(null);});
 
     }
 
     @Test
     @DisplayName("Test para comprobar que un nodo completo, con padre, hijoDrcho, HijoIzq, NodoCercano y con peso devuelve el item del nodo")
-    public void test3(){
+    public void ComrpobacionPadreHijoDrchoHijoIzqNodoCercanoYPesoDelNodoTop(){
         AvlNode<Object>Node1 = new AvlNode<>(1);
 
         Node1.setHeight(1);
@@ -64,7 +64,7 @@ public class AvlNodePracticaTest {
 
     @Test
     @DisplayName("Test para comprobar que un nodo solo tiene hijo izquierdo")
-    public void test4(){
+    public void ComprobacionSoloTenerHijoIzq(){
         AvlNode<Object>Node1 = new AvlNode<>(1);
 
         Node1.setLeft(new AvlNode<>(2));
@@ -78,7 +78,7 @@ public class AvlNodePracticaTest {
 
     @Test
     @DisplayName("Test para comprobar que un nodo solo tiene hijo derecho")
-    public void test5(){
+    public void ComprobacionSoloTenerHijoDrcho(){
         AvlNode<Object>Node1 = new AvlNode<>(1);
 
         Node1.setRight(new AvlNode<>(2));
@@ -93,7 +93,7 @@ public class AvlNodePracticaTest {
 
     @Test
     @DisplayName("Test para comprobar que un nodo es una hoja")
-    public void test6(){
+    public void ComprobacionNodoHoja(){
         AvlNode<Object>Node1 = new AvlNode<>(1);
         Node1.updateHeight();
 
