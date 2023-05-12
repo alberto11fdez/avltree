@@ -26,6 +26,7 @@ public class AvlTreePracticaTest {
             Object itemExpected = 1;
             Object itemActual = avlTreeActual.getTop().getItem();
 
+
             assertEquals(itemExpected,itemActual);
         }
 
@@ -65,7 +66,7 @@ public class AvlTreePracticaTest {
             Comparator comparator = Comparator.comparingInt((Integer o) -> o);
             AvlTree<Integer> avlTree = new AvlTree<>(comparator);
             AvlNode<Integer> node = null;
-
+            assertEquals(-1, avlTree.height(node));
             assertThrows(IllegalArgumentException.class, () -> {avlTree.insertAvlNode(node);});
         }
     }
@@ -333,27 +334,247 @@ public class AvlTreePracticaTest {
         }
     }
 
+    @Nested
+    @DisplayName("Método Rotar a la Izquierda")
+    public class RotarAIzquierdaElAvlTree{
+        @Test
+        @DisplayName("Rotar a la izquierda sin tener nodo padre")
+        public void ComprobarRotarAIzquierdaSinPadre(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.leftRotation(avlTree.getTop());
+        }
+
+        @Test
+        @DisplayName("Rotar a la izquierda teniendo nodo padre")
+        public void ComprobarRotarAIzquierdaConPadre(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node3 = new AvlNode(6);
+
+
+            node1.setParent(node3);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.leftRotation(avlTree.getTop());
+        }
+
+        @Test
+        @DisplayName("Rotar a la izquierda teniendo nodo padre, el cual tiene sus dos hijos iguales")
+        public void ComprobarRotarAIzquierdaConPadreTeniendoSuHijoIzqIguaAlDrcho(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node3 = new AvlNode(6);
+
+            node3.setLeft(node1);
+
+            node1.setParent(node3);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.leftRotation(avlTree.getTop());
+        }
+
+    }
+
+
+    @Nested
+    @DisplayName("Método Rotar a la derecha")
+    public class RotarADerechaElAvlTree{
+        @Test
+        @DisplayName("Rotar a la derecha sin tener nodo padre")
+        public void ComprobarRotarADerechaSinPadre(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.rightRotation(avlTree.getTop());
+        }
+
+        @Test
+        @DisplayName("Rotar a la derecha teniendo nodo padre")
+        public void ComprobarRotarADerechaConPadre(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node3 = new AvlNode(6);
+
+
+            node1.setParent(node3);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.rightRotation(avlTree.getTop());
+        }
+
+        @Test
+        @DisplayName("Rotar a la derecha teniendo nodo padre, el cual tiene sus dos hijos iguales")
+        public void ComprobarRotarADerechaConPadreTeniendoSuHijoIzqIguaAlDrcho(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node3 = new AvlNode(6);
+
+            node3.setRight(node1);
+
+            node1.setParent(node3);
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            avlTree.insertTop(node1);
+
+            avlTree.rightRotation(avlTree.getTop());
+        }
+
+    }
+
+    @Nested
+    @DisplayName("Metodo Rotar dos veces")
+    public class RotarDosVecesADerechaElAvlTree {
+        @Test
+        @DisplayName("Rotar a la derecha sin tener nodo padre dos veces")
+        public void ComprobarRotarADerechaSinPadreDosVeces() {
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node3 = new AvlNode(7);
+
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            node2.setLeft(node1);
+            node2.setRight(node3);
+            avlTree.insertTop(node1);
+
+            avlTree.doubleRightRotation(avlTree.getTop());
+        }
+        @Test
+        @DisplayName("Rotar a la izquierda sin tener nodo padre dos veces")
+        public void ComprobarRotarAIzquierdaSinPadreDosVeces() {
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node1 = new AvlNode(5);
+            AvlNode<Integer> node2 = new AvlNode(6);
+            AvlNode<Integer> node0 = new AvlNode(3);
+
+
+            node1.setLeft(node);
+            node1.setRight(node2);
+            node.setLeft(node0);
+            node.setRight(node1);
+            avlTree.insertTop(node1);
+
+            avlTree.doubleLeftRotation(avlTree.getTop());
+        }
+    }
+
+    @Nested
+    @DisplayName("Devolver Arbol String")
+    public class DevolverArbolString{
+        @Test
+        @DisplayName("Devolver el arbol que se ha creado vacio")
+        public void DevolverArbolVacio(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+
+            assertEquals("", avlTree.toString());
+        }
+
+        @Test
+        @DisplayName("Devolver el arbol que se ha creado no vacio")
+        public void DevolverArbolNoVacio(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+
+            AvlNode<Integer> node = new AvlNode(5);
+            node.setRight(new AvlNode<>(2));
+            node.setLeft(new AvlNode(7));
+
+            avlTree.insertAvlNode(node);
+
+            assertEquals(" | 5 | 7 | 2", avlTree.toString());
+        }
+    }
+
 
     @Test
-    @DisplayName("Si Nodo no tiene hijos")
-    public void ComprobarNodoNoTieneHijo(){
+    @DisplayName("SearchClosestNode el cual top=null")
+    public void SearchClosestNodeTopNull(){
         Comparator comparator = Comparator.comparingInt((Integer o) -> o);
-        AvlTree<Integer> avlTree = new AvlTree<>(comparator);
-        AvlNode<Integer> node = new AvlNode(4);
-        AvlNode<Integer> node1 = new AvlNode(5);
-        AvlNode<Integer> node2 = new AvlNode(6);
-        AvlNode<Integer> node3 = new AvlNode(7);
+        AvlTree avlTree = new AvlTree<Object>(comparator);
+        AvlNode top = null;
+        avlTree.insertTop(null);
+        assertEquals(0,avlTree.searchClosestNode(top));
+    }
 
-        avlTree.insertTop(node);
-        avlTree.insertNodeRight(node1);
-        avlTree.insertNodeRight(node2);
-        avlTree.insertNodeRight(node3);
+    @Test
+    @DisplayName("Buscar en árbol vacio")
+    public void BuscarNodoEnArbolVacio(){
+        Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+        AvlTree avlTree = new AvlTree(comparator);
+        AvlNode<Integer> node1;
+        node1 = new AvlNode<Integer>(7);
+        assertNull(   avlTree.searchNode(node1));
+    }
 
-        node.setRight(node1);
-        node1.setRight(node2);
-        node2.setRight(node3);
+    @Test
+    @DisplayName("Eliminar Nodo hoja")
+    public void EliminarNodoHoja() {
+        Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+        AvlTree<Integer> tree = new AvlTree<>(comparator);
+        tree.insert(5);
+        tree.insert(3);
+        tree.insert(7);
+        tree.delete(3);
+        assertEquals(5, (int) tree.top.getItem());
+        assertNull(tree.top.getLeft());
+        assertEquals(7, (int) tree.top.getRight().getItem());
+    }
 
-        avlTree.leftRotation(avlTree.top);
+
+    @Test
+    @DisplayName("La busqueda a sido exitosa")
+    public void BusquedaExitosa() {
+        Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+        AvlTree<Integer> tree = new AvlTree<>(comparator);
+        tree.insert(5);
+        AvlNode<Integer> node = tree.search(5);
+        assertNotNull(node);
+        assertEquals(5, (int) node.getItem());
     }
 
 

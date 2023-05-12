@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="avl.AvlTreePracticaTest" time="0.022" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="avl.AvlTreePracticaTest" time="0.074" tests="36" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\USUARIO\AppData\Local\Temp\surefire1332848725909980266\surefirebooter16574884889848301908.jar C:\Users\USUARIO\AppData\Local\Temp\surefire1332848725909980266 2023-05-12T14-54-48_119-jvmRun1 surefire16353242176410213664tmp surefire_03958771815334169292tmp"/>
+    <property name="sun.java.command" value="C:\Users\USUARIO\AppData\Local\Temp\surefire10940603080648690926\surefirebooter4553710173473450265.jar C:\Users\USUARIO\AppData\Local\Temp\surefire10940603080648690926 2023-05-12T16-37-59_125-jvmRun1 surefire14879453369550298194tmp surefire_06291126018466931043tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\test-classes;C:\Users\USUARIO\Documents\IntelliJ\Mantenimiento\Ejercicio\avltree\target\classes;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\USUARIO\AppData\Local\Temp\surefire1332848725909980266\surefirebooter16574884889848301908.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USUARIO\AppData\Local\Temp\surefire10940603080648690926\surefirebooter4553710173473450265.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -58,26 +58,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="ComprobarNodoHijo" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0"/>
-  <testcase name="ComprobarNodoNoTieneHijo" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0"/>
-  <testcase name="BorrarHijoDrchoNull" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0"/>
-  <testcase name="BorrarHijoDrchoNoNull" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0"/>
-  <testcase name="BorrarHijoIzqNoNull" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0"/>
-  <testcase name="BorrarHijoIzqNull" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0"/>
+  <testcase name="BusquedaExitosa" classname="avl.AvlTreePracticaTest" time="0"/>
+  <testcase name="EliminarNodoHoja" classname="avl.AvlTreePracticaTest" time="0"/>
+  <testcase name="BuscarNodoEnArbolVacio" classname="avl.AvlTreePracticaTest" time="0"/>
+  <testcase name="SearchClosestNodeTopNull" classname="avl.AvlTreePracticaTest" time="0"/>
+  <testcase name="DevolverArbolNoVacio" classname="avl.AvlTreePracticaTest$DevolverArbolString" time="0"/>
+  <testcase name="DevolverArbolVacio" classname="avl.AvlTreePracticaTest$DevolverArbolString" time="0"/>
+  <testcase name="ComprobarRotarADerechaSinPadreDosVeces" classname="avl.AvlTreePracticaTest$RotarDosVecesADerechaElAvlTree" time="0"/>
+  <testcase name="ComprobarRotarAIzquierdaSinPadreDosVeces" classname="avl.AvlTreePracticaTest$RotarDosVecesADerechaElAvlTree" time="0"/>
+  <testcase name="ComprobarRotarADerechaConPadre" classname="avl.AvlTreePracticaTest$RotarADerechaElAvlTree" time="0.002"/>
+  <testcase name="ComprobarRotarADerechaConPadreTeniendoSuHijoIzqIguaAlDrcho" classname="avl.AvlTreePracticaTest$RotarADerechaElAvlTree" time="0.002"/>
+  <testcase name="ComprobarRotarADerechaSinPadre" classname="avl.AvlTreePracticaTest$RotarADerechaElAvlTree" time="0.001"/>
+  <testcase name="ComprobarRotarAIzquierdaSinPadre" classname="avl.AvlTreePracticaTest$RotarAIzquierdaElAvlTree" time="0.002"/>
+  <testcase name="ComprobarRotarAIzquierdaConPadreTeniendoSuHijoIzqIguaAlDrcho" classname="avl.AvlTreePracticaTest$RotarAIzquierdaElAvlTree" time="0.002"/>
+  <testcase name="ComprobarRotarAIzquierdaConPadre" classname="avl.AvlTreePracticaTest$RotarAIzquierdaElAvlTree" time="0.001"/>
+  <testcase name="ComprobarNodoHijo" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0.001"/>
+  <testcase name="ComprobarNodoNoTieneHijo" classname="avl.AvlTreePracticaTest$EncontrarSucesor" time="0.002"/>
+  <testcase name="BorrarHijoDrchoNull" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0.002"/>
+  <testcase name="BorrarHijoDrchoNoNull" classname="avl.AvlTreePracticaTest$BorrarHijoDrcho" time="0.002"/>
+  <testcase name="BorrarHijoIzqNoNull" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0.002"/>
+  <testcase name="BorrarHijoIzqNull" classname="avl.AvlTreePracticaTest$BorrarHijoIzq" time="0.002"/>
   <testcase name="BorrarNodoNoNullConHijoIzqYDrcho" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
   <testcase name="BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoIzq" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
   <testcase name="BorrarNodoNoNull" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
   <testcase name="BorrarNodoNoNullConHijoIzq" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
-  <testcase name="BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoDrcho" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0"/>
-  <testcase name="BorrarNodoNull" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
+  <testcase name="BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoDrcho" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
+  <testcase name="BorrarNodoNull" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.002"/>
   <testcase name="BorrarNodoNoNullConHijoDrcho" classname="avl.AvlTreePracticaTest$BorrarNodo" time="0.001"/>
-  <testcase name="testTopNull" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0"/>
-  <testcase name="testRightSearch" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0"/>
-  <testcase name="BuscarNodoNoNull" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0"/>
+  <testcase name="testTopNull" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.002"/>
+  <testcase name="testRightSearch" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.001"/>
+  <testcase name="BuscarNodoNoNull" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.001"/>
   <testcase name="testNoItem" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.001"/>
   <testcase name="BuscarNodoNullLanzarIllegalArgumentException" classname="avl.AvlTreePracticaTest$BuscarNodo" time="0.001"/>
   <testcase name="InsertarNodoNullLanzarIllegalArgumentException" classname="avl.AvlTreePracticaTest$InsertarNodo" time="0.001"/>
   <testcase name="InsertarNodoNoNull" classname="avl.AvlTreePracticaTest$InsertarNodo" time="0.001"/>
-  <testcase name="ConstructorCon1Nodo" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0.001"/>
-  <testcase name="ConstructoMasDe1Nodo" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0.001"/>
+  <testcase name="ConstructorCon1Nodo" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0.002"/>
+  <testcase name="ConstructoMasDe1Nodo" classname="avl.AvlTreePracticaTest$PruebaConstructor" time="0"/>
 </testsuite>

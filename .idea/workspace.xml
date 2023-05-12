@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="99056e26-3db2-4799-a0d1-78adbbbe5af8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlTree.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" afterDir="false" />
@@ -25,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoDrcho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoDrcho.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoIzq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarHijoIzq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarNodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlTreePracticaTest$BorrarNodo.class" afterDir="false" />
@@ -51,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.AvlTreePracticaTest.ComprobarNodoNoTieneHijo">
-    <configuration name="AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.AvlTreePracticaTest.testSearchExistingNode">
+    <configuration name="AvlTreePracticaTest$InsertarNodo.InsertarNodoNullLanzarIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -73,62 +68,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarNodo" />
-      <option name="METHOD_NAME" value="BorrarNodoNoNull" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$InsertarNodo" />
+      <option name="METHOD_NAME" value="InsertarNodoNullLanzarIllegalArgumentException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrcho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarNodo" />
-      <option name="METHOD_NAME" value="BorrarNodoNoNullConHijoIzqYDrcho" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoDrcho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarNodo" />
-      <option name="METHOD_NAME" value="BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoDrcho" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoIzq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest$BorrarNodo" />
-      <option name="METHOD_NAME" value="BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoIzq" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlTreePracticaTest.ComprobarNodoNoTieneHijo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvlTreePracticaTest.DevolverArbol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +85,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
       <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
-      <option name="METHOD_NAME" value="ComprobarNodoNoTieneHijo" />
+      <option name="METHOD_NAME" value="DevolverArbol" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvlTreePracticaTest.DevolverArbolNoVacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
+      <option name="METHOD_NAME" value="DevolverArbolNoVacio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvlTreePracticaTest.DevolverArbolVacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
+      <option name="METHOD_NAME" value="DevolverArbolVacio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvlTreePracticaTest.testSearchExistingNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlTreePracticaTest" />
+      <option name="METHOD_NAME" value="testSearchExistingNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AvlTreePracticaTest.ComprobarNodoNoTieneHijo" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoIzq" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrchoYElCualTieneHijoDrcho" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNullConHijoIzqYDrcho" />
-        <item itemvalue="JUnit.AvlTreePracticaTest$BorrarNodo.BorrarNodoNoNull" />
+        <item itemvalue="JUnit.AvlTreePracticaTest.testSearchExistingNode" />
+        <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbolNoVacio" />
+        <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbolVacio" />
+        <item itemvalue="JUnit.AvlTreePracticaTest.DevolverArbol" />
+        <item itemvalue="JUnit.AvlTreePracticaTest$InsertarNodo.InsertarNodoNullLanzarIllegalArgumentException" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +157,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683893376168</updated>
-      <workItem from="1683893377475" duration="2975000" />
+      <workItem from="1683893377475" duration="3594000" />
+      <workItem from="1683898977420" duration="3415000" />
     </task>
     <servers />
   </component>
@@ -179,12 +175,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java</url>
-          <line>168</line>
+          <line>169</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/avl/AvlTreePracticaTest.java</url>
-          <line>197</line>
+          <line>198</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

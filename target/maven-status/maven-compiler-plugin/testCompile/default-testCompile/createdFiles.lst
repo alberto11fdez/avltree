@@ -1,9 +1,13 @@
+avl\AvlTreePracticaTest$RotarADerechaElAvlTree.class
 avl\AvlTreePracticaTest$BorrarHijoDrcho.class
+avl\AvlTreePracticaTest$EncontrarSucesor.class
+avl\AvlTreePracticaTest$PruebaConstructor.class
+avl\AvlTreePracticaTest$RotarAIzquierdaElAvlTree.class
+avl\AvlTreePracticaTest.class
+avl\AvlTreePracticaTest$DevolverArbolString.class
 avl\AvlTreePracticaTest$BorrarNodo.class
 avl\AvlTreePracticaTest$BorrarHijoIzq.class
 avl\AvlTreePracticaTest$BuscarNodo.class
-avl\AvlTreePracticaTest$EncontrarSucesor.class
+avl\AvlTreePracticaTest$RotarDosVecesADerechaElAvlTree.class
 avl\AvlNodePracticaTest.class
 avl\AvlTreePracticaTest$InsertarNodo.class
-avl\AvlTreePracticaTest$PruebaConstructor.class
-avl\AvlTreePracticaTest.class
