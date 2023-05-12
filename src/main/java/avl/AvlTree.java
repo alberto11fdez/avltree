@@ -49,6 +49,11 @@ public class AvlTree<T> {
   }
 
   public void insertAvlNode(AvlNode<T> node) {
+    if(node == null)
+    {
+      throw new IllegalArgumentException();
+    }
+
     if (avlIsEmpty()) {
       insertTop(node);
     } else {
@@ -73,6 +78,10 @@ public class AvlTree<T> {
   }
 
   public AvlNode<T> searchNode(AvlNode<T> targetNode) {
+    if(targetNode == null)
+    {
+      throw new IllegalArgumentException();
+    }
     AvlNode<T> currentNode;
     AvlNode<T> result = null;
 
@@ -113,6 +122,10 @@ public class AvlTree<T> {
   }
 
   public void deleteNode(AvlNode<T> node) {
+    if(node == null)
+    {
+      throw new IllegalArgumentException();
+    }
     AvlNode<T> nodeFound;
 
     nodeFound = searchNode(node);
@@ -214,6 +227,7 @@ public class AvlTree<T> {
   }
 
   public AvlNode<T> findSuccessor(AvlNode<T> node) {
+
     AvlNode<T> result;
 
     if (node.hasRight()) {
@@ -227,6 +241,10 @@ public class AvlTree<T> {
         node = node.getParent();
       }
       result = node.getParent();
+    }
+    if(result == null)
+    {
+      throw new IllegalArgumentException();
     }
     return result;
   }

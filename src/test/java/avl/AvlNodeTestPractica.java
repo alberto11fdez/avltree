@@ -18,8 +18,6 @@ public class AvlNodeTestPractica {
         AvlNode<Object> closestNodeActual=nodeActual.getClosestNode();
         Object objectActual=nodeActual.getItem();
 
-
-
         AvlNode<Object> leftExpected=null;
         AvlNode<Object> rightExpected=null;
         AvlNode<Object> parentExpected=null;
@@ -38,8 +36,8 @@ public class AvlNodeTestPractica {
     @Test
     @DisplayName("Test para el constructor al pasarle un objeto null")
     public void test2(){
-        AvlNode<Object> nodoNull = new AvlNode<>(null);
-        assertThrows(IllegalArgumentException.class, () -> {nodoNull.getItem();});
+
+        assertThrows(IllegalArgumentException.class, () -> {AvlNode<Object> nodoNull = new AvlNode<>(null);});
 
     }
 

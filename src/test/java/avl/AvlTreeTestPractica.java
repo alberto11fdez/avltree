@@ -1,8 +1,14 @@
 package avl;
 
-import org.junit.Test;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+import java.util.Comparator;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class AvlTreeTestPractica {
 
@@ -29,13 +35,25 @@ public class AvlTreeTestPractica {
         @Test
         @DisplayName("Si Nodo != null")
         public void test5(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node2 = new AvlNode(3);
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node2);
 
+            assertEquals(0,avlTree.height(node2));
+            assertEquals(node,avlTree.getTop());
         }
 
         @Test
         @DisplayName("Si Nodo == null")
         public void test6(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = null;
 
+            assertThrows(IllegalArgumentException.class, () -> {avlTree.insertAvlNode(node);});
         }
     }
 
@@ -45,13 +63,25 @@ public class AvlTreeTestPractica {
         @Test
         @DisplayName("Si Nodo != null")
         public void test7(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node2 = new AvlNode(3);
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node2);
 
+            AvlNode<Integer> targetNode = new AvlNode(4);
+            assertEquals(node,avlTree.searchNode(targetNode));
         }
 
         @Test
         @DisplayName("Si Nodo == null")
         public void test8(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = null;
 
+            assertThrows(IllegalArgumentException.class, () -> {avlTree.searchNode(node);});
         }
     }
 
@@ -63,13 +93,25 @@ public class AvlTreeTestPractica {
         @Test
         @DisplayName("Si Nodo != null")
         public void test9(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node2 = new AvlNode(3);
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node2);
 
+            avlTree.deleteNode(node2);
+            assertEquals(null,avlTree.searchNode(node2));
         }
 
         @Test
         @DisplayName("Si Nodo == null")
         public void test10(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = null;
 
+            assertThrows(IllegalArgumentException.class, () -> {avlTree.deleteNode(node);});
         }
     }
 
@@ -113,15 +155,28 @@ public class AvlTreeTestPractica {
     @DisplayName("Valores introducibles en el EntrarSucesor")
     public class EncontrarSucesor{
         @Test
-        @DisplayName("Si Nodo != null")
+        @DisplayName("Si Nodo tiene algún hijo")
         public void test15(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
+            AvlNode<Integer> node2 = new AvlNode(3);
+            avlTree.insertAvlNode(node);
+            avlTree.insertAvlNode(node2);
 
+            assertEquals(node,avlTree.findSuccessor(node2));
         }
 
         @Test
-        @DisplayName("Si Nodo == null")
+        @DisplayName("Si Nodo no tiene hijos")
         public void test16(){
+            Comparator comparator = Comparator.comparingInt((Integer o) -> o);
+            AvlTree<Integer> avlTree = new AvlTree<>(comparator);
+            AvlNode<Integer> node = new AvlNode(4);
 
+            avlTree.insertAvlNode(node);
+
+            assertThrows(IllegalArgumentException.class, () -> {avlTree.findSuccessor(node);});
         }
     }
 
