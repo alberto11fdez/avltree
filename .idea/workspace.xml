@@ -7,6 +7,7 @@
     <list default="true" id="cc252cbc-6b99-4197-9f78-d157e97df664" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/avlTree.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avl/AvlTree.java" afterDir="false" />
@@ -28,6 +29,24 @@
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/avl/AvlNodePracticaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/AvlNode.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/avl/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlNodePracticaTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-avl.AvlTreePracticaTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlNodePracticaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/avl.AvlTreePracticaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/avl/AvlNodePracticaTest.class" afterDir="false" />
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +78,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/antho/OneDrive/Universidad Portátil/Tercer Año Segundo Cuatrimestre/Tecnologías de Aplicaciones Web/TrabajoEnGrupo/TAW&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/IntelliJ/Mantenimiento/Prácticas/Practica_7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
+<<<<<<< HEAD
 }</component>
   <component name="RunManager" selected="JUnit.AvlTreeTestPractica">
     <configuration name="AvlNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+}]]></component>
+  <component name="RunManager" selected="JUnit.AvlNodePracticaTest.test3">
+    <configuration name="AvlNodePracticaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvlNodeTestPractica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvlNodePracticaTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -100,28 +125,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodeTestPractica" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvlNodeTestPractica.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="avlTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="avl" />
-      <option name="MAIN_CLASS_NAME" value="avl.AvlNodeTestPractica" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AvlTreeTestPractica$InsertarNodo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="avlTree" />
       <extension name="coverage">
@@ -139,6 +150,9 @@
       </method>
     </configuration>
     <configuration name="AvlTreeTestPractica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="AvlNodePracticaTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
       <module name="avlTree" />
       <extension name="coverage">
         <pattern>
@@ -147,19 +161,65 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="avl" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="avl.AvlTreeTestPractica" />
       <option name="TEST_OBJECT" value="class" />
+=======
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvlNodePracticaTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvlNodePracticaTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avlTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="avl" />
+      <option name="MAIN_CLASS_NAME" value="avl.AvlNodePracticaTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.AvlTreeTestPractica" />
         <item itemvalue="JUnit.AvlTreeTestPractica$InsertarNodo.test5" />
         <item itemvalue="JUnit.AvlNodeTestPractica" />
         <item itemvalue="JUnit.AvlNodeTestPractica.test1" />
         <item itemvalue="JUnit.AvlNodeTest" />
+=======
+        <item itemvalue="JUnit.AvlNodePracticaTest.test3" />
+        <item itemvalue="JUnit.AvlNodePracticaTest.test6" />
+        <item itemvalue="JUnit.AvlNodePracticaTest.test4" />
+        <item itemvalue="JUnit.AvlNodePracticaTest" />
+        <item itemvalue="JUnit.AvlNodePracticaTest.test2" />
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +235,7 @@
       <workItem from="1683279854842" duration="1871000" />
       <workItem from="1683281945718" duration="655000" />
       <workItem from="1683422493522" duration="162000" />
+      <workItem from="1683883393637" duration="2212000" />
     </task>
     <servers />
   </component>

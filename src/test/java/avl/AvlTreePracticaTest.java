@@ -1,5 +1,6 @@
 package avl;
 
+<<<<<<< HEAD:src/test/java/avl/AvlTreeTestPractica.java
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -9,8 +10,13 @@ import java.util.Comparator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+=======
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+>>>>>>> 56083434e3909374ffe4c2b91a5497f7688eddee:src/test/java/avl/AvlTreePracticaTest.java
 
-public class AvlTreeTestPractica {
+public class AvlTreePracticaTest {
 
 
     @Nested
